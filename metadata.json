@@ -1,0 +1,8 @@
+{
+  "name": "Abrigo Viva Patas",
+  "description": "Site de doações para o Abrigo Viva Patas com geração de Pix dinâmico via Mercado Pago",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

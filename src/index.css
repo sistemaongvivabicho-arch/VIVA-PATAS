@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter Tight', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-brand-soft: var(--brand-soft);
+  --color-surface-cream: var(--surface-cream);
+  --color-surface-alt: var(--surface-alt);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(99.5% 0.004 95);
+  --foreground: oklch(24% 0.012 60);
+  --card: oklch(100% 0 0);
+  --card-foreground: oklch(24% 0.012 60);
+  --brand: oklch(63% 0.166 148);
+  --brand-strong: oklch(56% 0.16 148);
+  --brand-foreground: oklch(99% 0.01 150);
+  --brand-soft: oklch(95% 0.045 150);
+  --surface-cream: oklch(98.5% 0.008 95);
+  --surface-alt: oklch(95.5% 0.005 90);
+  --popover: oklch(100% 0 0);
+  --popover-foreground: oklch(24% 0.012 60);
+  --primary: oklch(63% 0.166 148);
+  --primary-foreground: oklch(99% 0.01 150);
+  --secondary: oklch(96% 0.006 90);
+  --secondary-foreground: oklch(24% 0.012 60);
+  --muted: oklch(96% 0.006 90);
+  --muted-foreground: oklch(52% 0.012 70);
+  --accent: oklch(95% 0.045 150);
+  --accent-foreground: oklch(35% 0.09 148);
+  --destructive: oklch(57.7% 0.245 27.325);
+  --destructive-foreground: oklch(98.4% 0.003 247.858);
+  --border: oklch(90% 0.006 90);
+  --input: oklch(90% 0.006 90);
+  --ring: oklch(63% 0.166 148);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+}
+
